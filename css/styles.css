@@ -1,0 +1,128 @@
+/* палитра
+чёрний основной #000000
+дополнительный чёрний #212121
+цвет фона hero и footer #2F303A 
+белый цвет #FFFFFF
+акцент цвет #2196F3
+акцент сёрый #757575
+фон чем мы занимаемся #E5E5E5
+цвет кнопок портфолио #f5f4fa
+*/
+/*переменные*/
+:root{
+    --primary-text-color:#000000;
+    --primary-accent-color:#2196F3;
+    --secondary-text-color:#212121;
+    --secondary-accent-color:#757575;
+    --primary-white-color:#ffffff;
+    --hero-footer-background-color:#2F303A;
+    --portfolio-button-bgc:#f5f4fa;
+}
+.list {
+    list-style: none;
+}
+/*header*/
+.logo-header{
+    color: var(--primary-text-color);
+}
+.logo-header:hover,
+.logo-header:focus{
+    color:var(--primary-accent-color);
+}
+.logo-header .first-part-logo{
+    color: var(--primary-accent-color);
+}
+.site-nav .link {
+    color:var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--primary-accent-color);   
+}
+.site-nav .link.current{
+    color: var(--primary-accent-color);   
+}
+.auth-nav .link{
+    color: var(--secondary-accent-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--primary-accent-color);
+}
+/*hero*/
+.hero{
+    background-color: var(--hero-footer-background-color);
+    color: var(--primary-white-color);
+}
+/*button*/
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color);   
+}
+.button:hover,
+.button:focus{
+    color: var(--primary-accent-color);
+    background-color: var(--primary-white-color);
+}
+/*features*/
+.features-title{
+    color: var(--secondary-text-color);
+}
+.features-text{
+    color: var(--secondary-accent-color);
+}
+/*what we do*/
+.what-we-do-title{
+    color: var(--secondary-text-color);
+}
+/*our team*/
+.our-team-title{
+    color: var(--secondary-text-color); 
+}
+.our-team-name{
+    color: var(--secondary-text-color); 
+}
+.proffession{
+color: var(--secondary-accent-color);
+}
+/*footer*/
+.footer{
+    background-color: var(--hero-footer-background-color);
+}
+.logo-footer{
+    color: var(--primary-white-color);
+}
+.logo-footer:hover,
+.logo-footer:focus{
+    color:var(--primary-accent-color);
+}
+.logo-footer .first-part-logo{
+    color: var(--primary-accent-color);
+}
+.address{
+    font-style:normal;
+}
+.real-address{
+    color:var(--primary-white-color);
+}
+.contacts{
+    color: rgba(255, 255, 255, .6);
+}
+/*portfolio*/
+.nav-button{
+    background-color: var(--portfolio-button-bgc);
+    color:var(--secondary-text-color); 
+}
+.nav-button:hover,
+.nav-button:focus,
+.nav-button:active{
+    background-color: var(--primary-accent-color);
+    color:var(--primary-white-color);
+}
+.element-title{
+    color:var(--secondary-text-color);
+}
+.element-item{
+    color: var(--secondary-accent-color);
+
+}
