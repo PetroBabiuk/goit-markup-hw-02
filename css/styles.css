@@ -88,7 +88,7 @@ body{
     color: var(--primary-white-color);
     background-color: var(--primary-accent-color);   
     
-    font-style: inherit;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -179,7 +179,7 @@ body{
 .nav-button{
     background-color: var(--portfolio-button-bgc);
     color:var(--secondary-text-color); 
-    font-style: inherit;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
