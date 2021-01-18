@@ -125,6 +125,9 @@ body{
     line-height: 1.71;
 }
 /*our team*/
+.our-team{
+    background-color: var(--portfolio-button-bgc);
+}
 .our-team-name{
     color: var(--secondary-text-color); 
 
@@ -176,6 +179,13 @@ body{
     text-decoration: none;
 }
 /*portfolio*/
+.portfolio-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
 .nav-button{
     background-color: var(--portfolio-button-bgc);
     color:var(--secondary-text-color); 
