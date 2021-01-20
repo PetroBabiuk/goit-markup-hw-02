@@ -75,13 +75,16 @@ body{
 /*hero*/
 .hero{
     background-color: var(--hero-footer-background-color);
-    color: var(--primary-white-color);
+
+}
+.header{
+   color: var(--primary-white-color);
     
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 /*button*/
 .button{
