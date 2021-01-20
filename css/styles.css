@@ -26,15 +26,7 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-.container{
-    margin-left: auto;
-    margin: auto;
-    width: 1200px;
-    outline: 2px solid tomato;
-}
 .list {
-    margin: 0;
-    padding: 0;
     
     list-style: none;
 }
